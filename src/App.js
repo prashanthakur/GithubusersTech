@@ -55,15 +55,8 @@ function App() {
 
   return (
     <>
-    <h1 style={{textAlign:"center"}}>JAI SHREE KRISHNA</h1>
+    <h4 style={{textAlign:"center"}} ><a href="https://github.com/prashanthakur/GithubusersTech">View Source Code</a></h4>
     <h3 style={{textAlign:"center",color:"#5061b7"}}>Click on any Github User to see his Stats</h3>
-    <h5 className='mt-2' style={{textAlign:"center"}}>{show?"You are viewing Stats of user :":""}&nbsp;{username}</h5>
-    <div className='container mt-4'>
-      <Table className="tables"
-      dataSource={repos}
-      columns={columns}
-      ></Table>
-    </div>
     {
       gitdata.map((item)=>{
         return (

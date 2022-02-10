@@ -16,6 +16,9 @@ span:hover{
 h3{
   border-bottom: 10px solid blueviolet;
 }
+h4{
+  text-decoration: underline;
+}
 
 .repos{
   height:50px;
@@ -25,10 +28,6 @@ h3{
   padding: 10px;
   cursor: pointer;
   overflow: hidden;
-}
-.repos:hover{
-  font-size: 16px;
-  transition: 0.2s all ease-out;
 }
 .tables{
   font-weight: bold;
